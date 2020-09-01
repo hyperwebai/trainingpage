@@ -7416,6 +7416,7 @@ blockquote.u-text.u-indent-0 {
 .u-image,
 .u-background-effect-image,
 .u-video-poster {
+  border-width: 0;
   object-fit: cover;
   display: block;
   vertical-align: middle;
@@ -13147,6 +13148,7 @@ section.u-image,
 }
 .u-group {
   display: flex;
+  border-width: 0;
 }
 .u-line.u-line-horizontal {
   border-right-width: 0;
@@ -13157,6 +13159,9 @@ section.u-image,
   border-right-width: 0;
   border-bottom-width: 0;
   border-top-width: 0;
+}
+.u-shape {
+  border-width: 0;
 }
 .u-shape-svg {
   border: none !important;
@@ -13226,6 +13231,7 @@ section.u-image,
 .u-icon {
   display: block;
   line-height: 0;
+  border-width: 0px;
 }
 .u-svg-link {
   width: 100%;
@@ -16541,6 +16547,7 @@ a.pswp__share--download:hover {
 .u-repeater-item {
   display: flex;
   position: relative;
+  border-width: 0px;
 }
 .u-table table {
   min-height: 100px;
@@ -16819,6 +16826,9 @@ a.pswp__share--download:hover {
   position: relative;
   height: auto;
 }
+.u-products-item {
+  border-width: 0px;
+}
 .u-product-price {
   display: table;
 }
@@ -16899,6 +16909,7 @@ a.pswp__share--download:hover {
   margin: 0;
   -webkit-text-decoration-skip: objects;
   border: none;
+  border-width: 0;
   margin: 0 !important;
   position: absolute;
   top: 0;
@@ -17209,12 +17220,18 @@ a.pswp__share--download:hover {
 .u-carousel-right .u-carousel-inner .u-active.u-carousel-item-left {
   transform: translate3d(100%, 0, 0);
 }
+.u-btn.u-gradient {
+  border-width: 0;
+}
+[class*="u-border-"],
+.u-link[class*="u-border-"] {
+  border-style: solid;
+}
 .u-border-0,
 .u-separator-0:after,
 .u-text.u-border-0,
 a.u-button-style.u-border-0 {
   border-width: 0px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-0 {
   stroke-width: 0px;
@@ -17227,7 +17244,6 @@ a.u-button-style.u-border-0 {
 .u-text.u-border-1,
 a.u-button-style.u-border-1 {
   border-width: 1px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-1 {
   stroke-width: 1px;
@@ -17240,7 +17256,6 @@ a.u-button-style.u-border-1 {
 .u-text.u-border-2,
 a.u-button-style.u-border-2 {
   border-width: 2px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-2 {
   stroke-width: 2px;
@@ -17253,7 +17268,6 @@ a.u-button-style.u-border-2 {
 .u-text.u-border-3,
 a.u-button-style.u-border-3 {
   border-width: 3px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-3 {
   stroke-width: 3px;
@@ -17266,7 +17280,6 @@ a.u-button-style.u-border-3 {
 .u-text.u-border-4,
 a.u-button-style.u-border-4 {
   border-width: 4px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-4 {
   stroke-width: 4px;
@@ -17279,7 +17292,6 @@ a.u-button-style.u-border-4 {
 .u-text.u-border-5,
 a.u-button-style.u-border-5 {
   border-width: 5px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-5 {
   stroke-width: 5px;
@@ -17292,7 +17304,6 @@ a.u-button-style.u-border-5 {
 .u-text.u-border-6,
 a.u-button-style.u-border-6 {
   border-width: 6px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-6 {
   stroke-width: 6px;
@@ -17305,7 +17316,6 @@ a.u-button-style.u-border-6 {
 .u-text.u-border-7,
 a.u-button-style.u-border-7 {
   border-width: 7px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-7 {
   stroke-width: 7px;
@@ -17318,7 +17328,6 @@ a.u-button-style.u-border-7 {
 .u-text.u-border-8,
 a.u-button-style.u-border-8 {
   border-width: 8px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-8 {
   stroke-width: 8px;
@@ -17331,7 +17340,6 @@ a.u-button-style.u-border-8 {
 .u-text.u-border-9,
 a.u-button-style.u-border-9 {
   border-width: 9px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-9 {
   stroke-width: 9px;
@@ -17344,7 +17352,6 @@ a.u-button-style.u-border-9 {
 .u-text.u-border-10,
 a.u-button-style.u-border-10 {
   border-width: 10px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-10 {
   stroke-width: 10px;
@@ -17357,7 +17364,6 @@ a.u-button-style.u-border-10 {
 .u-text.u-border-11,
 a.u-button-style.u-border-11 {
   border-width: 11px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-11 {
   stroke-width: 11px;
@@ -17370,7 +17376,6 @@ a.u-button-style.u-border-11 {
 .u-text.u-border-12,
 a.u-button-style.u-border-12 {
   border-width: 12px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-12 {
   stroke-width: 12px;
@@ -17383,7 +17388,6 @@ a.u-button-style.u-border-12 {
 .u-text.u-border-13,
 a.u-button-style.u-border-13 {
   border-width: 13px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-13 {
   stroke-width: 13px;
@@ -17396,7 +17400,6 @@ a.u-button-style.u-border-13 {
 .u-text.u-border-14,
 a.u-button-style.u-border-14 {
   border-width: 14px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-14 {
   stroke-width: 14px;
@@ -17409,7 +17412,6 @@ a.u-button-style.u-border-14 {
 .u-text.u-border-15,
 a.u-button-style.u-border-15 {
   border-width: 15px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-15 {
   stroke-width: 15px;
@@ -17422,7 +17424,6 @@ a.u-button-style.u-border-15 {
 .u-text.u-border-16,
 a.u-button-style.u-border-16 {
   border-width: 16px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-16 {
   stroke-width: 16px;
@@ -17435,7 +17436,6 @@ a.u-button-style.u-border-16 {
 .u-text.u-border-17,
 a.u-button-style.u-border-17 {
   border-width: 17px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-17 {
   stroke-width: 17px;
@@ -17448,7 +17448,6 @@ a.u-button-style.u-border-17 {
 .u-text.u-border-18,
 a.u-button-style.u-border-18 {
   border-width: 18px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-18 {
   stroke-width: 18px;
@@ -17461,7 +17460,6 @@ a.u-button-style.u-border-18 {
 .u-text.u-border-19,
 a.u-button-style.u-border-19 {
   border-width: 19px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-19 {
   stroke-width: 19px;
@@ -17474,7 +17472,6 @@ a.u-button-style.u-border-19 {
 .u-text.u-border-20,
 a.u-button-style.u-border-20 {
   border-width: 20px;
-  border-style: solid;
 }
 .u-shape-svg.u-border-20 {
   stroke-width: 20px;

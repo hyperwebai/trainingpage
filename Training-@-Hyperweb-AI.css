@@ -44,8 +44,7 @@
 .u-section-2 .u-btn-1 {border-style: solid; background-image: none; margin: 41px auto 50px 20px}
 .u-section-2 .u-image-1 {width: 573px; height: 467px; box-shadow: 0 0 40px 0 rgba(0,0,0,0.2); object-position: 50% 16.54%; background-position: 50% 16.54%; margin: -531px calc(((100% - 1140px) / 2)  + 59px) 0 auto}
 .u-section-2 .u-group-2 {width: 459px; min-height: 54px; margin: 0 calc(((100% - 1140px) / 2)  + 61px) 60px auto}
-.u-section-2 .u-text-3 {font-style: italic; margin: 5px 0 0 40px}
-.u-section-2 .u-line-2 {height: 3px; transform-origin: right center 0; width: 459px; margin: 8px auto 5px 0} 
+.u-section-2 .u-line-2 {height: 3px; transform-origin: right center 0; width: 459px; margin: 5px auto 5px 0} 
 
 @media (max-width: 1199px){ .u-section-2 {min-height: 646px}
 .u-section-2 .u-shape-1 {width: calc(((100% - 940px) / 2) + 470px)}
@@ -56,7 +55,6 @@
 .u-section-2 .u-btn-1 {margin-left: 16px}
 .u-section-2 .u-image-1 {width: 503px; height: 351px; margin-top: -454px; margin-right: calc(((100% - 940px) / 2)  + 14px)}
 .u-section-2 .u-group-2 {width: 407px; margin-right: calc(((100% - 940px) / 2)  + 16px)}
-.u-section-2 .u-text-3 {position: relative; margin-left: 33px}
 .u-section-2 .u-line-2 {margin-right: initial; margin-left: initial; width: auto} }
 
 @media (max-width: 991px){ .u-section-2 .u-shape-1 {width: calc(((100% - 720px) / 2) + 360px)}
@@ -66,8 +64,7 @@
 .u-section-2 .u-text-2 {margin-left: 13px; margin-right: 13px}
 .u-section-2 .u-btn-1 {margin-left: 13px}
 .u-section-2 .u-image-1 {width: 382px; margin-right: calc(((100% - 720px) / 2))}
-.u-section-2 .u-group-2 {width: 338px; margin-right: calc(((100% - 720px) / 2))}
-.u-section-2 .u-text-3 {margin-left: 73px} }
+.u-section-2 .u-group-2 {width: 338px; margin-right: calc(((100% - 720px) / 2))} }
 
 @media (max-width: 767px){ .u-section-2 .u-shape-1 {width: calc(((100% - 540px) / 2) + 420px)}
 .u-section-2 .u-group-1 {width: 375px; min-height: 473px; margin-top: 52px; margin-left: calc(((100% - 540px) / 2))}
@@ -77,8 +74,7 @@
 .u-section-2 .u-btn-1 {margin-bottom: 45px; margin-left: 19px}
 .u-section-2 .u-image-1 {width: 488px; margin-top: 4px; margin-right: calc(((100% - 540px) / 2))}
 .u-section-2 .u-group-2 {width: 410px; min-height: 46px; margin-right: calc(((100% - 540px) / 2)); margin-bottom: 18px}
-.u-section-2 .u-text-3 {margin-top: 7px; margin-left: 19px}
-.u-section-2 .u-line-2 {margin-top: 9px; width: auto; margin-right: initial; margin-left: initial} }
+.u-section-2 .u-line-2 {margin-top: 7px; width: auto; margin-right: initial; margin-left: initial} }
 
 @media (max-width: 575px){ .u-section-2 {min-height: 585px}
 .u-section-2 .u-shape-1 {width: calc(((100% - 340px) / 2) + 307px)}
@@ -89,8 +85,7 @@
 .u-section-2 .u-btn-1 {margin-bottom: 32px; margin-left: 6px}
 .u-section-2 .u-image-1 {height: 290px; margin-top: 0; margin-right: initial; margin-left: initial; width: auto}
 .u-section-2 .u-group-2 {width: 337px; min-height: 58px; margin-right: calc(((100% - 340px) / 2)); margin-bottom: 57px}
-.u-section-2 .u-text-3 {margin-top: 13px; margin-left: 6px}
-.u-section-2 .u-line-2 {margin-top: 14px; width: auto; margin-right: initial; margin-left: initial} }.u-block-6921-2 {position: absolute; bottom: 10px}
+.u-section-2 .u-line-2 {margin-top: 13px; width: auto; margin-right: initial; margin-left: initial} }.u-block-6921-2 {position: absolute; bottom: 10px}
 .u-block-6921-3 {position: absolute; left: calc(((100% - 1140px) / 2)  + 148px); width: 35px; padding-top: 35px; top: auto; bottom: 369px}
 .u-block-6921-4 {position: absolute; width: 35px; padding-top: 35px; left: calc(((100% - 1140px) / 2)  + 935px); top: auto; bottom: 369px} 
 
@@ -461,7 +456,7 @@
 .u-section-8 .u-text-1 {margin: 60px 0 0 20px}
 .u-section-8 .u-line-1 {width: 90px; height: 2px; transform-origin: left center 0; margin: 40px auto 0 20px}
 .u-section-8 .u-text-2 {margin: 40px 0 0 20px}
-.u-section-8 .u-btn-1 {border-style: solid; background-image: none; margin: 40px auto 60px 20px} 
+.u-section-8 .u-btn-1 {border-style: solid; background-image: none; margin: 40px auto 0 20px} 
 
 @media (max-width: 1199px){ .u-section-8 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
 .u-section-8 .u-group-1 {width: 401px}
